@@ -1,0 +1,26 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.class
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test input files
+input.txt
+output.txt
