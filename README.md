@@ -11,13 +11,14 @@ daily-PS/
 │   └── CPP/
 └── Programmers/      # 프로그래머스
     ├── Python/
-    └── CPP/
+    ├── CPP/
+    └── SQL/
 ```
 
 ## Naming Convention
 
 - 백준: `{문제번호}_{문제제목}.py` 또는 `.cpp`
-- 프로그래머스: `{문제제목}.py` 또는 `.cpp`
+- 프로그래머스: `{문제제목}.py` 또는 `.cpp` 또는 `.sql`
 
 ## Progress
 
