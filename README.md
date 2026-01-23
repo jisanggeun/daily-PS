@@ -17,8 +17,8 @@ daily-PS/
 
 ## Naming Convention
 
-- 백준: `{문제번호}_{문제제목}.py` 또는 `.cpp`
-- 프로그래머스: `{문제제목}.py` 또는 `.cpp` 또는 `.sql`
+- 백준: `{문제번호}_boj.py` 또는 `.cpp`
+- 프로그래머스: `{문제번호}_programmers.py` 또는 `.cpp` 또는 `.sql`
 
 ## Progress
 
