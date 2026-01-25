@@ -1,0 +1,13 @@
+-- 프로그래머스: 물고기 종류 별 대어 찾기
+-- https://school.programmers.co.kr/learn/courses/30/lessons/293261
+
+SELECT ID, FISH_NAME, LENGTH FROM FISH_INFO 
+JOIN FISH_NAME_INFO ON FISH_INFO.FISH_TYPE = FISH_NAME_INFO.FISH_TYPE 
+    WHERE (FISH_INFO.FISH_TYPE, FISH_INFO.LENGTH) 
+    IN (SELECT FISH_TYPE, MAX(LENGTH) as LENGTH FROM FISH_INFO GROUP BY FISH_TYPE);
+
+-- 반성
+-- 1. 가독성 안 좋게 쿼리문 작성
+-- 2. INNER JOIN과 WHERE GROUP BY(서브 쿼리)를 제대로 응용 못함
+
+-- JOIN == INNER JOIN
