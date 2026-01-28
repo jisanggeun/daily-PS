@@ -42,4 +42,4 @@ def solution(n):
     # 1. 열린 괄호와 닫힌 괄호 count를 각각 주어진 숫자 n개만큼 받음
     # 2. 백트래킹(브루트포스 + 가지치기)으로 진행해야하기 때문에 가지치기 수행(open_cnt > 0, close_cnt > open_cnt)
     # 3. 재귀 전 해당하는 괄호 append, 재귀 끝나고, 다른 case도 해야하므로, pop 진행
-    # 4. length를 필요로 하기 때문에, len으로 거르고 출력
+    # 4. length를 필요로 하기 때문에, len으로 출력
