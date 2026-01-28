@@ -22,7 +22,8 @@ daily-PS/
 
 ## Progress
 
-| Platform | Solved |
-|----------|--------|
-| 백준 | 0 |
-| 프로그래머스 | 10 |
+| Platform | Type | Solved |
+|----------|------|--------|
+| 백준 | Algorithm | 0 |
+| 프로그래머스 | Algorithm | 7 |
+| 프로그래머스 | SQL | 10 |
