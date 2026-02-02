@@ -9,9 +9,11 @@ daily-PS/
 ├── BOJ/              # 백준
 │   ├── Python/
 │   └── CPP/
-└── Programmers/      # 프로그래머스
-    ├── Python/
-    ├── CPP/
+├── Programmers/      # 프로그래머스
+│   ├── Python/
+│   ├── CPP/
+│   └── SQL/
+└── LeetCode/         # 리트코드
     └── SQL/
 ```
 
@@ -19,6 +21,7 @@ daily-PS/
 
 - 백준: `{문제번호}_boj.py` 또는 `.cpp`
 - 프로그래머스: `{문제번호}_programmers.py` 또는 `.cpp` 또는 `.sql`
+- LeetCode: `{문제번호}_leetcode.sql`
 
 ## Progress
 
@@ -27,3 +30,4 @@ daily-PS/
 | 백준 | Algorithm | 0 |
 | 프로그래머스 | Algorithm | 7 |
 | 프로그래머스 | SQL | 10 |
+| LeetCode | SQL | 5 |
