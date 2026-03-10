@@ -27,7 +27,7 @@ daily-PS/
 
 | Platform | Type | Solved |
 |----------|------|--------|
-| 백준 | Algorithm | 13 |
+| 백준 | Algorithm | 23 |
 | 프로그래머스 | Algorithm | 28 |
 | 프로그래머스 | SQL | 10 |
 | LeetCode | SQL | 50 |
